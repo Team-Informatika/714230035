@@ -1,7 +1,7 @@
 // Toggle the navigation menu on mobile
 const toggleBtn = document.getElementById('navbar-toggle');
-const navbarMenu = document.querySelector('.navbar .space-x-6');
+const navbarLinks = document.querySelector('.navbar-links');
 
 toggleBtn.addEventListener('click', () => {
-  navbarMenu.classList.toggle('hidden');
+  navbarLinks.classList.toggle('hidden');
 });
